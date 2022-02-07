@@ -2,10 +2,10 @@
 	"name": "just-the-weather",
 	"version": "1.0.0",
 	"description": "a minimalist weather app",
+	"main": "app.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "npx parcel index.html",
-		"build": "npx parcel build index.html"
+		"start": "node app.js"
 	},
 	"repository": {
 		"type": "git",
@@ -18,10 +18,7 @@
 	},
 	"homepage": "https://github.com/acutler1987/Just-The-Weather#readme",
 	"dependencies": {
+		"body-parser": "^1.19.1",
 		"express": "^4.17.2"
-	},
-	"devDependencies": {
-		"parcel": "^2.2.1",
-		"parcel-bundler": "^1.12.5"
 	}
 }
