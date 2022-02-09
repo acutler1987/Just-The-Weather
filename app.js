@@ -6,8 +6,6 @@ const config = require('./config.js');
 // const uri = config.redirect_uri;
 const apiKey = config.API_key;
 const bodyParser = require('body-parser');
-// const date = new Date(document.lastModified);
-// document.getElementById('modified').innerHTML = date;
 
 const app = express();
 
